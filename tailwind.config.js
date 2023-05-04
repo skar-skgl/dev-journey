@@ -7,12 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        anonymous: ['Anonymous Pro', 'monospace'],
+        comfortaa: ['Comfortaa', 'cursive'],
+        cutive: ['Cutive Mono', 'monospace'],
+        robotomono: ['Roboto Mono', 'monospace'],
+        sourcecodepro: ['Source Code Pro', 'monospace']
       },
     },
   },
-  plugins: [],
-}
+    plugins: [],
+  }
+
