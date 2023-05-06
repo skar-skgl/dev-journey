@@ -3,49 +3,50 @@ import React from 'react'
 const Sidebar = () => {
     return (
 
-        <aside className="flex flex-col w-64 h-full px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-neutral-900 dark:border-none">
-            <a href="#">
-            </a>
-
+        <aside className="flex flex-col w-64 h-full px-5 overflow-y-auto bg-white border-r rtl:border-r-1 rtl:border-l dark:bg-neutral-900  dark:border-neutral-800">
+            <div className="flex flex-col relative justify-between font-mono text-2xl py-7">
+                <span className="text-amber-100">DevJourney<span className="text-neutral-200">();</span></span>
+                
+            </div>
             <div className="flex flex-col relative justify-between flex-1">
                 <nav className="-mx-3 space-y-6 content-center font-anonymous">
-                    <div className="space-y-3  ">
-                        <label className="px-3 text-xs  text-gray-500 uppercase dark:text-gray-400">peeps to follow</label>
+                    <div className="space-y-3 ">
+                        <label className="px-3 text-xs border-neutral-500 py-2 text-emerald-400 uppercase">peeps to follow</label>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Unity / C#</span>
                         </a>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Other cool cats</span>
                         </a>
                     </div>
 
                     <div className="space-y-3 ">
-                        <label className="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">tools</label>
+                        <label className="px-3 text-xs border-neutral-500 py-2 text-emerald-400 uppercase">tools</label>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Web tools</span>
                         </a>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Awesome assets</span>
                         </a>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
 
                             <span className="mx-2 text-sm font-medium">Other cool stuff</span>
                         </a>
                     </div>
 
                     <div className="space-y-3 ">
-                        <label className="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">other stuff</label>
+                        <label className="px-3 text-xs border-neutral-500 py-2 text-emerald-400 uppercase">other stuff</label>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Inspiration</span>
                         </a>
 
-                        <a className="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-all duration-300 ease-in-elastic transform text-sky-200 hover:bg-gradient-to-r from-[#3CA55C] to-[#B5AC49] hover:text-zinc-900 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Wut</span>
                         </a>
                     </div>

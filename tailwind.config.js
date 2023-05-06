@@ -14,6 +14,10 @@ module.exports = {
         robotomono: ['Roboto Mono', 'monospace'],
         sourcecodepro: ['Source Code Pro', 'monospace']
       },
+        transitionTimingFunction: {
+          'in-elastic': 'cubic-bezier(.6, .54, .6, 1.43)',
+          'out-elastic': 'cubic-bezier(0.16, 1, 0.3, 1)',
+        },
     },
   },
     plugins: [],
