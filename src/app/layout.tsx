@@ -8,25 +8,26 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata = {
-  title: 'Dev Journey',
+  title: 'Byteclub',
   description: 'Tools and resources for developers',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout = ({children}: {children: React.ReactNode}) =>
+{
   return (
     <html lang="en">
       <body>
-        <div className="flex flex-row relative min-h-screen">
-        <div><Sidebar/></div>
-        <div><Header /></div>
 
+        <div className="min-h-screen bg-dark-bg">
+        <div><Header /></div>
+        <div><Sidebar/></div>
+        <div className="ml-64">
         {children}
         </div>
+        </div>
+
       </body>
     </html>
   )
 }
+export default RootLayout
