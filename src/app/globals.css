@@ -18,6 +18,56 @@
   }
 }
 
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+  }
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 0vh;
+    background: rgb(19,19,19);
+    border: none;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(64 64 64);
+    border-radius: 100vh;
+    border: none;
+    transition: background 0.5s;
+  }
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(52, 211, 153);
+  }
+  .scrollbar::-webkit-scrollbar-track:hover {
+    border-radius: 100vh;
+    background: rgb(19,19,19);
+    border: none;
+  }
+
+  .scrollbarSmall::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+  }
+  .scrollbarSmall::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: rgb(19,19,19);
+    border: none;
+  }
+  .scrollbarSmall::-webkit-scrollbar-thumb {
+    background: rgb(64 64 64);
+    border-radius: 100vh;
+    border: none;
+    transition: background 0.5s;
+  }
+  .scrollbarSmall::-webkit-scrollbar-thumb:hover {
+    background: rgb(52, 211, 153);
+  }
+  .scrollbarSmall::-webkit-scrollbar-track:hover {
+    border-radius: 100vh;
+    background: rgb(19,19,19);
+    border: none;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

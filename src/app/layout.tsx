@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './Header'
 import Sidebar from './Sidebar'
+require('dotenv').config()
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,7 +17,7 @@ const RootLayout = ({children}: {children: React.ReactNode}) =>
 {
   return (
     <html lang="en">
-      <body>
+      <body className='scrollbar'>
 
         <div className="min-h-screen bg-dark-bg">
         <div><Header /></div>

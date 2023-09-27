@@ -22,10 +22,10 @@ const Sidebar = () => {
 
                     <div className="space-y-3 ">
                         <label className="px-3 text-xs border-neutral-500 py-2 text-emerald-300 uppercase">tools</label>
-
-                        <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-spacing duration-300 ease-in-elastic transform text-sky-200 hover:bg-[#1b1b1b] hover:text-amber-100 hover:px-5" href="#">
+                        <Link href={'/tools/web'}>
+                        <p className="flex border-y items-center px-3 py-2 border-neutral-800 transition-spacing duration-300 ease-in-elastic transform text-sky-200 hover:bg-[#1b1b1b] hover:text-amber-100 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Web tools</span>
-                        </a>
+                        </p></Link>
 
                         <a className="flex border-y items-center px-3 py-2 border-neutral-800 transition-spacing duration-300 ease-in-elastic transform text-sky-200 hover:bg-[#1b1b1b] hover:text-amber-100 hover:px-5" href="#">
                             <span className="mx-2 text-sm font-medium">Awesome assets</span>

@@ -1,0 +1,29 @@
+[
+    {
+      "key": 1,
+      "value":  {
+        "title": "cubic-bezier",
+        "description": "A web based cubic-bezier generator. Awesome tool for creating custom easings for transitions and animations.",
+        "imgurl": "/../public/img/cubic-bezier-icon.png",
+        "link": "https://cubic-bezier.com/"
+      }
+    },
+    {
+        "key": 2,
+        "value":  {
+          "title": "coolos.co",
+          "description": "A color palette generator. Awesome tool for creating beautiful color schemes.",
+          "imgurl": "/../public/img/coolors-iconn.png",
+          "link": "https://coolors.co/3f88c5-44bba4-f7dd72-e29578-474647"
+        }
+      },
+      {
+        "key": 3,
+        "value":  {
+          "title": "icon.horse",
+          "description": "Fetch any sites favicon with a single link. Great for adding images to external links. Like this one!",
+          "imgurl": "https://icon.horse/icon/icon.horse",
+          "link": "https://icon.horse/"
+      }
+    }
+  ]

@@ -14,19 +14,27 @@ module.exports = {
         robotomono: ['Roboto Mono', 'monospace'],
         sourcecodepro: ['Source Code Pro', 'monospace']
       },
-        transitionTimingFunction: {
-          'in-elastic': 'cubic-bezier(.6, .54, .6, 1.43)',
-          'out-elastic': 'cubic-bezier(0.16, 1, 0.3, 1)',
-        },
-        transitionProperty: {
-          'height': 'height',
-          'spacing': 'margin, padding',
-        },
-        colors: {
-          'dark-bg': '#131313',
-        },
+      transitionTimingFunction: {
+        'in-elastic': 'cubic-bezier(.6, .54, .6, 1.43)',
+        'out-elastic': 'cubic-bezier(0.16, 1, 0.3, 1)',
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      },
+      colors: {
+        'dark-bg': '#131313',
+      },
+      boxShadow: {
+        'glow': '0 0 15px 1px rgb(0 0 0 / 0.1), 0 0 6px 1px rgb(0 0 0 / 0.1)',
+      },
     },
   },
-    plugins: [],
-  }
+  plugins:
+    [
+      require('tailwind-scrollbar'),
+
+    ],
+
+}
 
