@@ -31,7 +31,7 @@ const ToolsCard = ({ item }: { item: number }) => {
             <Link href={info.link} rel="noopener noreferrer" target="_blank">
                 <div className="flex flex-row items-center px-8 w-full border-2 bg-dark-bg rounded-lg border-neutral-800 py-6 my-4 group/item transition-all duration-300 ease-out hover:bg-neutral-900 hover:border-sky-200 hover:border-opacity-25">
                     <div className="w-40 h-fit">
-                        <div className={`rounded-full border-2 border-emerald-400 bg-dark-bg overflow-clip w-40 h-40 transition-colors duration-500 group-hover/item:shadow-glow group-hover/item:shadow-emerald-300/30 group-hover/item:`}>
+                        <div className={`text-s font-mono rounded-full border-2 border-emerald-400 bg-dark-bg overflow-clip w-40 h-40 font-light transition-all duration-300 group-hover/item:shadow-glow group-hover/item:shadow-emerald-300/30 group-hover/item:`}>
                             {
                                 isExternalLink(info.imgurl) ?
                                     <img
@@ -50,7 +50,7 @@ const ToolsCard = ({ item }: { item: number }) => {
                         </div>
                     </div>
                     <div className="flex flex-col w-full pl-8 font-light">
-                        <div className="text-lg font-mono mb-2 w-full font-light text-sky-200">{info.title}</div>
+                        <div className="text-lg font-mono mb-2 w-full font-light text-sky-200 group-hover/item:text-xl duration-200">{info.title}</div>
                         <div className="text-sm w-full mb-2 font-sans italic font-light">Channel description:</div>
                         <div className="text-sm border-2 border-neutral-800 rounded-lg pr-2 font-sans h-24 transition-all duration-300 ease-out overflow-hidden hover:overflow-y-auto scrollbarSmall w-full p-2 font-light">{info.description}</div>
                     </div>

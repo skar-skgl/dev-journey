@@ -10,7 +10,6 @@ export const GET = async (req: NextRequest) => {
     }
 
     const apiKey: string = process.env.YOUTUBE_API_KEY || '';
-    console.log(apiKey);
     const apiUrl = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics&id=${id}&key=${apiKey}`;
 
     try {
