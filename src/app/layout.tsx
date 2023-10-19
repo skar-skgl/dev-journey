@@ -19,7 +19,7 @@ const RootLayout = ({children}: {children: React.ReactNode}) =>
     <html lang="en">
       <body className='scrollbar'>
 
-        <div className="min-h-screen bg-dark-bg">
+        <div className="min-h-screen bg-neutral-900">
         <div><Header /></div>
         <div><Sidebar/></div>
         <div className="ml-64">
